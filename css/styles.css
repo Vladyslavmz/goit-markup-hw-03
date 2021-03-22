@@ -221,6 +221,7 @@ address {
 }
 /* секція особливості */
 .title-features {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -229,12 +230,15 @@ address {
 }
 /* Заголовок 2рівня */
 .subject {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   color: var(--primary-text-color);
+}
+.gallery {
+  padding-top: 0;
 }
 .gallery .gallery-item {
   --items-wrap: 3;
@@ -250,6 +254,9 @@ address {
 }
 .comandos .item-team {
   --items-wrap: 4;
+}
+.comandos .subject {
+  padding-top: 50px;
 }
 .comandos .img {
   margin-bottom: 30px;
@@ -321,7 +328,7 @@ address {
   margin-bottom: 20px;
 }
 .portfolio .items {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .portfolio .item {
   text-align: start;
