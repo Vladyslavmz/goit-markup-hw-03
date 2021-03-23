@@ -144,6 +144,8 @@ address {
   color: #ffffff;
 }
 .btn {
+  display: inline-block;
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -176,10 +178,20 @@ address {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
+.header .link-focus {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .menu-item {
   margin-right: 50px;
 }
+.link-shift {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 /* логотип */
 .logo {
   font-family: Raleway;
@@ -199,14 +211,16 @@ address {
   text-align: center;
   background-color: var(--title-bg-color);
 }
+.geroy-container {
+  padding-top: 94px;
+}
 /* заголовок першого рівня */
 .geroy-title {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   max-width: 696px;
-  padding-top: 200px;
 
   font-weight: 900;
   font-size: 44px;
@@ -298,13 +312,14 @@ address {
 }
 /* портфоліо */
 .portfolio {
-  background-color: var(--priamary-bg-color);
-  padding: 94px;
+  /* background-color: var(--priamary-bg-color); */
+  padding-top: 86px;
+  padding-bottom: 94px;
 }
 .portfolio .menu {
   display: flex;
+  margin-bottom: 20px;
   justify-content: center;
-  padding-top: 85px;
 }
 .portfolio-item:not(:last-child) {
   margin-right: 10px;
@@ -318,14 +333,18 @@ address {
 .portfolio .itim-projects {
   --items-wrap: 3;
 }
-.portfolio .img {
-  margin-bottom: 20px;
+.portfolio .title-projects {
+  margin-bottom: 4px;
 }
+
 .portfolio .title-team {
   margin-bottom: 5px;
 }
-.portfolio .tiam-img {
-  margin-bottom: 20px;
+.portfolio .team-img {
+  /* margin-bottom: 20px; */
+  padding: 24px 20px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 .portfolio .items {
   margin-bottom: 20px;
@@ -335,6 +354,8 @@ address {
 }
 /* підвал */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--title-bg-color);
 }
 .address {
@@ -343,7 +364,6 @@ address {
   color: var(--baton-text-color);
 }
 .footer-logo {
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .address {
@@ -352,6 +372,6 @@ address {
 .item-address {
   margin-bottom: 10px;
 }
-.footer-addres {
-  padding-bottom: 60px;
+.footer-adres .link-shift {
+  color: rgba(255, 255, 255, 0.6);
 }
