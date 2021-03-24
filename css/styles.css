@@ -59,8 +59,8 @@ address {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-
-  outline: 2px solid tomato;
+  /* 
+  outline: 2px solid tomato; */
 }
 
 .content-header {
@@ -158,6 +158,9 @@ address {
   border-radius: 4px;
 }
 /* шапка */
+.header {
+  border: 1px solid #ececec;
+}
 .link-text {
   font-weight: 500;
   font-size: 14px;
@@ -272,13 +275,11 @@ address {
 .comandos .subject {
   padding-top: 50px;
 }
-.comandos .img {
-  margin-bottom: 30px;
-}
 .comandos .title-team {
   margin-bottom: 10px;
 }
 .comandos .tiam-img {
+  padding-top: 30px;
   margin-bottom: 30px;
 }
 
